@@ -1,0 +1,103 @@
+.contact-section {
+  padding-top: 1rem ;
+  background-color: rgb(220, 248, 220);
+}
+
+.contact-section .card {
+
+  border: 0;
+  border-bottom: 0.25rem solid #64a19d;
+}
+.contact-section .card h4, .contact-section .card .h4 {
+  font-size: 0.8rem;
+  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+}
+.contact-section .card hr {
+  border-color: #2b17d8;
+  border-width: 0.25rem;
+  width: 3rem;
+}
+.contact-section .social {
+  margin-top: 4rem;
+}
+
+.contact-section .social a {
+  text-align: center;
+  height: 4rem;
+  width: 4rem;
+  background: rgba(185, 14, 14, 0.1);
+  border-radius: 100%;
+  line-height: 4rem;
+  color: rgba(226, 99, 26, 0.904);
+}
+
+.contact-section .social a:hover {
+  color: rgba(226, 99, 26, 0.904);
+  transform: scale(1.1);
+}
+.contact-section .social a:active {
+  color: rgb(23, 11, 131);
+}
+    
+.footer {
+    padding: 5rem 0rem;
+}
+
+
+/* GRID STYLE PRODUCT ITEM */
+.card-product-grid {
+  margin-bottom: 20px;
+}
+.card-product-grid .img-wrap {
+  border-radius: 0.2rem 0.2rem 0 0;
+  height: 220px;
+}
+.card-product-grid .info-wrap {
+  overflow: hidden;
+  padding: 18px 20px;
+}
+.card-product-grid .bottom-wrap {
+  padding: 18px;
+  border-top: 1px solid #e4e4e4;
+}
+.card-product-grid .topbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  left: 0;
+  text-align: initial;
+  padding: 10px 15px;
+}
+.card-product-grid .topbar a {
+  color: #ccc;
+}
+.card-product-grid .topbar a:hover {
+  color: #3167eb;
+}
+.card-product-grid .fix-height {
+  height: 80px;
+  overflow: hidden;
+}
+.card-product-grid .btn-overlay {
+  transition: 0.5s;
+  opacity: 0;
+  left: 0;
+  bottom: 0;
+  color: #fff;
+  width: 100%;
+  padding: 5px 0;
+  text-align: center;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+}
+.card-product-grid:hover .btn-overlay {
+  opacity: 1;
+}
+.card-product-grid:hover {
+  box-shadow: 0 4px 15px rgba(153, 153, 153, 0.3);
+  transition: 0.3s;
+}
+    
